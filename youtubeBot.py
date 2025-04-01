@@ -10,13 +10,13 @@ with open('proxy.txt') as fil:
     proxy_list = [i.strip() for i in fil]
 
 # get input from user
-URL = input("enter youtube video URL ...\n")
-timeToReopenBrowser = input("Reopen the browser n times ...\n")
-videoLength = input("How long is the video?\n")
+URL = input("https://youtu.be/TGZgULpdgn4?si=H79oOLvD_jxTBGQX")
+timeToReopenBrowser = input("2")
+videoLength = input("20:00:00")
 
 # convert input to int
-timeToReopenBrowser = int(timeToReopenBrowser)
-videoLength = int(videoLength)
+timeToReopenBrowser = int(2)
+videoLength = int(20 min)
 
 # get a rendom proxy every time the while loop runs
 # open chrome and go to the URL link
